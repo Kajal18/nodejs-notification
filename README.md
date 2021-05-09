@@ -52,10 +52,3 @@ npm start (create and update user)
 | Plugin | README                     |
 | ------ | -------------------------- |
 | GitHub | [plugins/github/README.md] |
-
-## ENV
-
-TWILIO_ACCOUNT_SID=AC2d8365f04e628e1c64cfc61b900c50e7
-TWILIO_AUTH_TOKEN=23992e5a49a4678dd4c152e31c4a85f3
-GMAIL_USERNAME= (gmail emailId)
-GMAIL_PASSWORD= (gmail password)
