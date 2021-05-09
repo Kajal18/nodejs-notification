@@ -32,8 +32,6 @@ This system uses a number of below packages to work properly:
 - [twilio] - sms notification
 - [node-schedule] - for scheduler
 
-And of course Dillinger itself is open source with a [public repository][dill]
-on GitHub.
 
 ## Installation
 
