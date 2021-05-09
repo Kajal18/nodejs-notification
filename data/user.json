@@ -1,0 +1,20 @@
+[
+  {
+    "email": "abc@yopmail.com",
+    "name": "abc",
+    "subscribe": true,
+    "phone number": "+919662269256"
+  },
+  {
+    "email": "kajal@yopmail.com",
+    "name": "kajal",
+    "subscribe": false,
+    "phone number": "+919662269256"
+  },
+  {
+    "email": "test@yopmail.com",
+    "name": "test",
+    "subscribe": false,
+    "phone number": "+919662269256"
+  }
+]
