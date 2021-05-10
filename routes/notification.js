@@ -1,8 +1,8 @@
 const jsonFile = require('jsonfile');
 const users = __dirname + '/../data/user.json';
-const sendEamil = require('./sendEmail');
+const sendEamil = require('../utils/sendEmail');
 // const sendMail = require('../utils/sendEmail')
-const sendSms = require('./sendSms');
+const sendSms = require('../utils/sendSms');
 
 const notification = async (req, res, next) => {
   try {

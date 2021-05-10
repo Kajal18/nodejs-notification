@@ -7,7 +7,7 @@ const twilioSms = (num) => {
   console.log(num);
   twilio.messages.create(
     {
-      from: '+17043502832',
+      from: process.env.TWILIO_PHONE_NUMBER,
       to: num,
       body: 'test notification',
     },

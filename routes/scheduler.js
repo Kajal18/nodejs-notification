@@ -2,7 +2,7 @@ const schedule = require('node-schedule');
 const rule = new schedule.RecurrenceRule();
 const jsonFile = require('jsonfile');
 const users = __dirname + '/../data/user.json';
-const sendSms = require('./sendSms');
+const sendSms = require('../utils/sendSms');
 
 const schedulerFunction = async () => {
   const usersData = await jsonFile.readFile(users);
